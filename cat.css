@@ -1,0 +1,3711 @@
+@import url('https://fonts.googleapis.com/css2?family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap');
+
+* {
+    /* background-color: rgb(179, 212, 212); */
+    padding: 0px;
+    margin: 0px;
+    font-family: "Rethink Sans", sans-serif;
+    box-sizing: border-box;
+
+}
+
+body {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.main {
+    /* background-color: lightgreen; */
+    width: 100%;
+    height: 100%;
+}
+
+.meowHome {
+    /* border: 2px solid black; */
+    border: none;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    width: 100%;
+}
+
+.textDecoration {
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    padding: 20px 60px;
+    justify-content: space-between;
+    /* border: 2px solid black; */
+}
+
+.Meowlogotopleft {
+    height: 50px;
+    width: 130px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+
+.navImg {
+    height: 16px;
+    width: 16px;
+    margin-right: 10px;
+    margin-bottom: -8px;
+}
+
+.navAlert-AdText {
+    color: #211220;
+    opacity: 0.76;
+    font-weight: 580;
+}
+
+.navRegText {
+    color: black;
+    font-weight: 550;
+}
+
+.navMenuSub {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0px;
+    margin-right: 20px;
+}
+
+.navMenu {
+    display: none;
+}
+
+.purpleButtonLogin {
+    background-color: #A658A1;
+    color: white;
+    height: 31px;
+    width: 100px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+}
+
+.intro {
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 18%;
+    border: none;
+    position: relative;
+}
+
+.introIrish {
+    position: absolute;
+    height: 60px;
+    right: 60px;
+    top: -2px;
+}
+
+.introHeading {
+    font-size: 52px;
+    margin-top: 20px;
+    color: #333333;
+}
+
+.introPurpleColorText {
+    color: #A658A1;
+    font-size: 52px;
+}
+
+.introPara {
+    line-height: 30px;
+    /* border: 2px solid black; */
+    text-indent: 50px;
+    /* font-display: auto; */
+    margin: 20px 0px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.introParadiv {
+    display: flex;
+    padding: 0px 10%;
+}
+
+.introPurplePara {
+    color: #A658A1;
+}
+
+.searchDiv {
+    display: flex;
+    /* border: 2px solid #211220; */
+    border-radius: 50px;
+    padding: 0px 30px;
+    width: 90%;
+    height: 40px;
+    align-items: center;
+}
+
+.location {
+    background-color: #EDDEEC;
+    border: none;
+    border-radius: 20px;
+    height: 90%;
+    width: 23%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.searchLocImg {
+    height: 14px;
+    width: 10px;
+    margin-right: 2%;
+    margin-left: 4%;
+}
+
+.searchDropdownImg {
+    height: 6px;
+    width: 10px;
+    margin-right: 2%;
+    margin-left: 20%;
+}
+
+.searchIt {
+    color: #21122099;
+    margin-left: 10px;
+}
+
+.searchButton {
+    background-color: #A658A1;
+    color: white;
+    height: 90%;
+    width: 16%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    margin-left: 220px;
+}
+
+.introCatDogPic {
+    height: 230px;
+    width: 740px;
+    margin-top: 40px;
+    /* margin-right: 130px; */
+    border: none;
+}
+
+.playStorePurple {
+    background-color: #A658A1;
+    width: 100%;
+    height: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 65px;
+    padding-right: 65px;
+}
+
+.playstore {
+    height: 30%;
+    width: 36%;
+}
+
+.playstorePara {
+    line-height: 37px;
+    color: white;
+    font-size: 27px;
+    font-weight: 500;
+    /* word-break: break-all;
+    word-wrap: break-word; */
+}
+
+.dogAds,
+.catAds,
+.vetAds,
+.adoptionAds,
+.servicesAds,
+.blog,
+.dogBreed,
+.catBreed,
+.services {
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    padding-top: 80px;
+    width: 100%;
+}
+
+.adHeadingLine {
+    display: flex;
+    justify-content: end;
+    margin-top: 20px;
+}
+
+.view {
+    margin-left: 32%;
+    margin-right: 70px;
+    align-self: flex-end;
+    color: #5F6165;
+}
+
+.adHeading {
+    font-size: 1.6rem;
+}
+
+.dataAds {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0px;
+}
+
+.adPic {
+    height: 100%;
+}
+
+.adsMainPicDiv {
+    position: relative;
+    height: 160px;
+}
+
+.loveReact {
+    position: absolute;
+    height: 25px;
+    right: 4%;
+    top: 5%;
+}
+
+.adDetails {
+    display: flex;
+}
+
+.viewAdDetailsButton {
+    display: flex;
+    height: 30px;
+    width: 100%;
+    background-color: #A658A1;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px;
+    font-size: 13px;
+}
+
+.dataAdsLine01,
+.dataAdsLine02 {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 0px;
+    flex-wrap: wrap;
+}
+
+.data1 {
+    margin-top: 5%;
+    color: #211220;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.dollar {
+    margin-top: 5%;
+    color: #A658A1;
+}
+
+.data2 {
+    color: #5F6165;
+    line-height: 8px;
+    font-size: 14px;
+    margin-top: 3px;
+    margin-bottom: 10px;
+}
+
+.registeredMoney {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dataPBAAbold {
+    color: #211220;
+    font-size: 13px;
+    font-weight: 550;
+    margin: 2.5px 0px;
+}
+
+.dataPBAAlight {
+    margin: 2.5px 0px;
+    color: #5F6165;
+    font-size: 13px;
+    font-weight: 80;
+}
+
+.InnerAdsData {
+    border: 1.5px solid #D9D9D9;
+    padding: 8px;
+    border-radius: 10px;
+    background-color: white;
+    margin: 15px 0px;
+}
+
+.purpleSecondBG {
+    background-color: #7D2B78;
+    height: 65 0px;
+    width: 100%;
+    position: relative;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+}
+
+.purpleSecondBGpic {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.purpSecondMain {
+    background-color: #EDDEEC;
+    /* background-color: #211220; */
+    width: 92%;
+    z-index: 1;
+    margin: 30px 0px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    border: none;
+    border-radius: 23px;
+}
+
+.viewInnerPurptwo {
+    margin-right: 25px;
+}
+
+.alertButtonContainer {
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+}
+
+.AlertButton {
+    display: flex;
+    height: 40px;
+    width: 120px;
+    background-color: #A658A1;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px;
+    font-size: 19px;
+}
+
+.studAds {
+    padding-top: 80px;
+}
+
+.travel {
+    color: #A658A1;
+    font-size: 14px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.blogLasttwoInnerdata {
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid black; */
+    padding: 0px 20px;
+    width: 100%;
+    height: 90px;
+}
+
+.InnerBlogData {
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+}
+
+.contactLogo {
+    height: 20px;
+    margin-right: 6px;
+}
+
+.msgLogo {
+    height: 18px;
+    margin-left: 6px;
+}
+
+.blogPara {
+    font-size: 17px;
+}
+
+.blogLastInnerdata {
+    display: flex;
+    align-items: center;
+}
+
+.BlogInnerFlexbox {
+    display: flex;
+    padding: 35px 60px;
+}
+
+.goldenRetriever {
+    color: #211220;
+    display: flex;
+    height: 16%;
+    justify-content: center;
+    align-items: center;
+    font-weight: 550;
+    font-size: 12px;
+    padding: 6px;
+}
+
+.services {
+    /* border: 2px solid black; */
+    padding-bottom: 60px;
+    width: 100%;
+}
+
+.servicesfullData {
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+
+.serviceHeading {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+    font-size: 26px;
+}
+
+.serviceData {
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 50px;
+}
+
+.serviceImg {
+    height: 120px;
+}
+
+.servicePara {
+    /* border: 2px solid black; */
+    line-height: 20px;
+    font-size: 14px;
+    margin-left: 18px;
+    color: #70788D;
+    width: 70%;
+
+}
+
+.BTGMain {
+    width: 23%;
+}
+
+.BTGheading {
+    font-size: 14px;
+    margin-left: 18px;
+    margin-bottom: 6px;
+}
+
+.lastPurpleBG {
+    background-color: #A658A1;
+    margin-top: 120px;
+    width: 100%;
+    height: 350px;
+    position: relative;
+}
+
+.lastPurpleMain {
+    /* background-color: #151313; */
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    height: 70%;
+    margin-left: 4%;
+    justify-content: space-evenly;
+    line-height: 33px;
+    /* margin-top: 100px; */
+    position: absolute;
+    top: 15%;
+    font-size: 28px;
+    color: white;
+}
+
+.playstoreSecondPic {
+    height: 50px;
+}
+
+.mobileImg {
+    position: absolute;
+    height: 420px;
+    top: -75px;
+    right: 65px;
+}
+
+.footer {
+    /* height: 390px; */
+    margin-top: 30px;
+    position: relative;
+    z-index: -1;
+
+}
+
+.footerBg {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.footerMain {
+    width: 100%;
+    height: 100%;
+}
+
+.footerMain {
+    display: flex;
+    flex-direction: column;
+}
+
+.footerDiv1 {
+    display: flex;
+    /* border: 2px solid black; */
+    padding-left: 50%;
+    padding-right: 15%;
+    padding-top: 40px;
+    /* justify-content: space-evenly; */
+
+    color: white;
+}
+
+.footerSignUpMain {
+    width: 43%;
+}
+
+.footerSignUpMain {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footerSignUpHeading {
+    margin-bottom: 5px;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.footerSignUpPara {
+    margin-bottom: 5px;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+
+.lineFooter {
+    background-color: #A658A1;
+    width: 0.125rem;
+    margin: 0px 13px;
+}
+
+.footerEmailSubscribeMain {
+    width: 55%;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+}
+
+.footerEmailSubscribeInner {
+    display: flex;
+    /* border: 2px solid black; */
+    height: 40px;
+    background-color: #4A4A4A;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    width: 100%;
+    padding: 0px 10px;
+}
+
+.footerEmail {
+    margin-left: 5px;
+    font-size: 10px;
+    line-height: 16px;
+}
+
+.footerSubscribe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #A658A1;
+    height: 29px;
+    width: 90px;
+    border: none;
+    border-radius: 16px;
+    font-size: 11px;
+    line-height: 16px;
+}
+
+.footerDiv2 {
+    display: flex;
+    font-size: 12px;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.footerDiv2LogoMainDiv {
+    width: 13%;
+}
+
+.Meowlogofooter {
+    height: 50px;
+}
+
+.locationIconFooter {
+    height: 15px;
+    margin-right: 4px;
+}
+
+.locationMainFooter {
+    display: flex;
+    align-items: center;
+    margin: 15px 0px;
+}
+
+.locFootText {
+    color: white;
+}
+
+.footerDiv2LightText {
+    color: #868686;
+}
+
+.footerLinksMain {
+    display: flex;
+    /* border: 2px solid black; */
+    /* justify-content: space-between; */
+    /* flex-wrap: wrap; */
+
+}
+
+.footerLinksImgs {
+    height: 28px;
+    margin: 6px;
+}
+
+.loginButtonFooter {
+    margin: 13px 0px;
+}
+
+.footD2MarginLight {
+    margin: 8px 0px;
+}
+
+.footerDiv2LogoMainDiv,
+.footerDiv2LegalMainDiv,
+.footerDiv2SupportMainDiv,
+.footerDiv2ExploreMainDiv,
+.footerDiv2PlaystoreMainDiv {
+    display: flex;
+    flex-direction: column;
+}
+
+.playstoreFooter {
+    height: 110px;
+}
+
+.footerDiv2DarkText {
+    color: white;
+    margin-bottom: 10px;
+}
+
+hr {
+    opacity: 0.1;
+}
+
+.footerDiv3 {
+    padding-left: 160px;
+    color: white;
+    opacity: 0.8;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    /* border: 2px solid black; */
+    height: 10%;
+}
+
+.purpleColorTextCopyrightFooter {
+    color: #A658A1;
+}
+
+.footerDivsMargin {
+    margin: 0px 60px;
+}
+
+.ManHeader {
+    height: 40px;
+}
+
+.DashboardBtn {
+    width: 116px;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.DSnavTxtLight {
+    opacity: 0.9;
+    color: #211220;
+}
+
+.DSnav {
+    width: 60%;
+}
+
+.DSheader {
+    background-color: #E8E0CA4F;
+    padding: 20px 50px;
+}
+
+.navMenuDS {
+    display: none;
+    cursor: pointer;
+}
+
+.DSMainDiv {
+    padding: 25px 50px;
+
+}
+
+.DSmainFirstPara {
+    color: #999DA0;
+    font-size: 15px;
+}
+
+.DSmainFirstContainer {
+    background-color: #EDDEEC;
+    padding: 15px;
+    /* border: none; */
+    /* border: 2px solid black; */
+    border-radius: 5px;
+    border-left: 8px solid #A658A1;
+}
+
+.DS {
+    padding: 50px 0px;
+}
+
+.DSheading {
+    font-size: 35px;
+}
+
+.DSsearchadsButton01 {
+    width: 100px;
+    height: 38px;
+    /* margin: 30px; */
+    cursor: pointer;
+}
+
+.DSsearchAds {
+    border: 1px solid #A658A1;
+    width: 300px;
+    border-radius: 25px;
+    color: #989898;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.DSshowing9Container {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 40px 0px;
+}
+
+.DSsearchsearch {
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid black; */
+    width: 420px;
+}
+
+.DSmainData {
+    display: flex;
+    /* flex-wrap: wrap; */
+    padding-top: 10px;
+    /* gap: 20px; */
+    justify-content: space-between;
+}
+
+.DSmainDataLeft {
+    /* border: 2px solid black; */
+    /* width: 72%; */
+    display: flex;
+    flex-direction: column;
+    /* gap: 20px; */
+}
+
+.DSLeftInnerDiv {
+    /* border: 2px solid black; */
+    display: flex;
+    margin: 10px 0px;
+    padding: 20px 10px;
+    border-radius: 10px;
+    box-shadow: 20px;
+    position: relative;
+    display: flex;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    flex-wrap: wrap;
+    /* height: 220px; */
+    /* width: 65%; */
+}
+
+.DSblackHeart {
+    position: absolute;
+    right: 50px;
+    bottom: 10px;
+    height: 40px;
+}
+
+.DSLeftInnerPicMain {
+    /* height: 300px; */
+    /* border: 2px solid black; */
+    position: relative;
+    width: 310px;
+    height: 220px;
+}
+
+.feb14 {
+    position: absolute;
+    height: 50px;
+    top: 10px;
+    right: 10px;
+}
+
+.DSdogImg {
+    height: 100%;
+    width: 100%;
+}
+
+.DSdogHeading,
+.DSdogDollar {
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 0%;
+}
+
+.DSdogDollar {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.DSdogLightTextLeft {
+    color: #8EA49C;
+    font-size: 12px;
+}
+
+.DSLeftDogDetail {
+    display: flex;
+}
+
+.DSLeftDogPara {
+    font-size: 12px;
+    line-height: 20px;
+    width: 450px;
+    display: flex;
+}
+
+.DSViewAdButton {
+    border: 1px solid #A658A1;
+    background-color: #EDDEEC;
+    border-radius: 15px;
+    color: #A658A1;
+    font-weight: 500;
+    width: 100px;
+    padding: 4px 25px;
+    font-size: 13px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.DSLeftInnerTextData {
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.DSdogDollarContainer {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 5%;
+    margin-bottom: -10px;
+}
+
+.DSdot {
+    margin: 1.5px 5px;
+}
+
+.DSmainDataRight {
+    /* border: 2px solid black; */
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* width: 28%; */
+}
+
+.DSrightTextSelected {
+    font-weight: 500;
+}
+
+.DSrightFiltersPublished {
+    border: 1px solid #A658A169;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    gap: 25px;
+    width: 300px;
+
+}
+
+.DSrightFiltersHeading {
+    color: #A658A1;
+}
+
+.sex,
+.breed {
+    display: flex;
+    flex-direction: column;
+    gap: 15.5px;
+}
+
+.DSselectSize {
+    height: 15px;
+}
+
+.DSfilterSearch {
+    width: 100%;
+    border: 1px solid #EBE3CC;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    color: #989898;
+    border-radius: 25px;
+
+}
+
+.DSBreedLabraContainer {
+    display: flex;
+    flex-direction: column;
+    color: #211220;
+    font-weight: 450;
+    gap: 10px;
+    position: relative;
+}
+
+.DSBreedLabraContainer ::after {
+    content: '';
+    position: absolute;
+    background-color: #D9D9D9C9;
+    top: 0;
+    right: 0;
+    height: 50%;
+    width: 5px;
+}
+
+.DspubPriceInnerData {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.DSpublishedPriceMain {
+    display: flex;
+    flex-direction: column;
+}
+
+.DSpublishedfromTo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #EBE3CC;
+    border-radius: 25px;
+    width: 85px;
+    height: 30px;
+    color: #989898;
+}
+
+.DSpubSearchBtn {
+    height: 30px;
+    width: 150px;
+}
+
+.DSvet {
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+.DSvetHeading {
+    font-weight: 400;
+}
+
+.DSvetPic {
+    height: 80px;
+}
+
+.DsvetInner {
+    display: flex;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgba(112, 112, 112, 0.2);
+}
+
+.DsvetiInnerTextMain {
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid black; */
+    gap: 8px;
+    font-size: 15px;
+    padding: 0px 10px;
+}
+
+.DsvetiInnerTextDate {
+    color: grey;
+}
+
+.DsvetiInnerTextLorem {
+    color: #211220;
+}
+
+.DSvetMain {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.DS123container {
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.DS123innerBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #A658A1;
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+    color: #999DA0;
+    cursor: pointer;
+}
+
+.DS123main {
+    display: flex;
+    gap: 10px;
+    font-size: 14px;
+}
+
+.DS123selected {
+    background-color: rgba(211, 191, 255, 0.5);
+}
+
+.DSnavTxtLight:hover {
+    /* opacity: 0.4; */
+    color: #A658A1;
+    /* background-color: #211220; */
+}
+
+.DS123innerBox:hover {
+    background-color: rgba(211, 191, 255, 0.5);
+}
+
+.DashboardBtn:hover {
+
+    color: rgb(217, 209, 209);
+    background-color: #c589c1;
+}
+
+.DSViewAdButton:hover {
+    background-color: #7d4679;
+    color: #EDDEEC;
+}
+
+@media (max-width:1225px) {
+    .DSLeftInnerDiv {
+        flex-wrap: unset;
+    }
+
+    .DSLeftDogPara {
+        width: 300px;
+        flex-wrap: wrap;
+    }
+
+}
+
+.sidebar {
+    /* position: absolute; */
+    right: 40px;
+    top: 40px;
+    bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    /* background-color: rgba(8, 7, 7, 0); */
+    background-color: rgb(200, 96, 146);
+    color: rgb(255, 255, 255);
+    z-index: 9999;
+    opacity: 0.9;
+    /* border-radius: 50px; */
+    display: none;
+    padding: 40px;
+    align-items: start;
+    padding-left: 15px;
+    height: 390px;
+    width: 100% !important;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.sidebartxt {
+    color: white;
+}
+
+/* .toggleMenu:hover + .sidebar{
+        display: flex;
+}
+
+.toggleMenu:active + .sidebar{
+    display: flex;
+} */
+
+.sidebar.active {
+    display: flex;
+}
+
+.toggleMenu {
+    display: flex;
+    flex-direction: row !important;
+    display: none;
+}
+
+.sidebar {
+    display: none;
+}
+
+.DSMainDivSidebar {
+    margin-right: 200px;
+}
+
+.DSshowing9ContainerSidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: safe;
+    justify-content: center;
+    gap: 20px;
+}
+
+.linklogo:hover {
+    opacity: 0.8;
+}
+
+
+
+
+
+
+.CatMainDiv {
+    padding: 70px 50px;
+}
+
+.publishedCatStart {
+    color: #8EA49C;
+    font-size: 14px;
+}
+
+.catStartImgsMainDiv {
+    display: flex;
+    gap: 25px;
+    margin: 12px 0px 20px 0px;
+}
+
+.catStartImgsInnerDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.catStartImgs {
+    height: 16px;
+}
+
+.catMiddleMain {
+    display: flex;
+    gap: 20px;
+}
+
+
+.catLeftMiddleFirstMain {
+    display: flex;
+    gap: 20px;
+    /* border: 2px solid black; */
+}
+
+.catLeftLeftMiddleMain {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.catLeftLeftBottomMain {
+    display: flex;
+    gap: 10px;
+}
+
+.catLeftMiddleMainContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.catLeftLeftTop {
+    height: 410px;
+}
+
+.catLeftLeftBottom {
+    height: 83px;
+}
+
+.catLeftRightMiddleMain {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.catLeftRight {
+    height: 164px;
+}
+
+.catLeftMiddleSecondMain {
+    border: 1px solid #C4C4C4;
+    border-radius: 10px;
+    padding: 30px 30px 50px 30px;
+}
+
+.catDollarNameMainDiv {
+    display: flex;
+    justify-content: space-between;
+}
+
+.catDollar {
+    color: #A658A1;
+    font-size: 30px;
+    margin-right: 15px;
+}
+
+.catReportAdButton {
+    color: #211220;
+    border: 1px solid #A658A1;
+    padding: 5px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.catReportAdButton:hover{
+    background-color: rgb(218, 222, 222);
+}
+
+.review23 {
+    color: #5E6282;
+}
+
+.leftStarInnerDiv {
+    display: flex;
+    gap: 15px;
+}
+
+.starContainerLeft,
+.starContainerRight {
+    display: flex;
+    gap: 5px;
+    /* border: 2px solid black; */
+    /* align-items: center; */
+    padding: 0px;
+}
+
+.starLeft {
+    height: 13px;
+}
+
+.catPara {
+    color: #062D3EC2;
+    line-height: 25px;
+}
+
+/* .check{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    height: 100px;
+    border: 2px solid black;
+}
+
+.firstcol,.twocol{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100%;
+} */
+
+
+.catLeftMiddleThirdMain {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #C4C4C4;
+    border-radius: 10px;
+    padding: 30px 50px;
+    gap: 30px;
+    flex-wrap: wrap;
+    height: 550px;
+    /* align-items: flex-start; */
+
+}
+
+.catLeftMiddleThirdInner {
+    display: flex;
+    /* justify-content: space-between;   */
+}
+
+.purpleCatThird {
+    color: #A658A1;
+    font-weight: 500;
+    min-width: 200px;
+    flex-shrink: 0;
+}
+
+.darkCatThird {
+    color: #211220;
+    font-weight: 500;
+    /* flex: 1; */
+}
+
+.greenCatThird {
+    color: #34A853;
+}
+
+.catThirdUK-i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.calmCatThird {
+    font-weight: 400;
+}
+
+.catthird-i {
+    height: 10px;
+}
+
+.catthirdPicTick {
+    height: 22px;
+}
+
+.catthirdPiccross {
+    height: 19px;
+}
+
+.catthirdPicFiveLikes {
+    height: 18px;
+}
+
+.catGreenBtn {
+    padding: 15px 50px;
+    background-color: #34A853;
+    border: none;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF;
+    align-self: flex-end;
+    cursor: pointer;
+}
+
+.catGreenBtn:hover {
+    background-color: rgb(193, 193, 193);
+    color: #34A853;
+}
+
+.catGreenBtnOuter {
+    align-self: flex-end;
+    margin-right: 60px;
+    margin-top: 20px;
+}
+
+.catRightMiddleMain {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.catRightMiddleFirstMain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    border: 1px solid #A658A1;
+    padding: 17px 35px 25px 35px;
+    border-radius: 10px;
+}
+
+.catVetAdss {
+    width: unset;
+}
+
+.PrinceMiyako {
+    height: 120px;
+    margin: 10px 0px;
+}
+
+.PrinceMiyakoName {
+    color: #A658A1;
+}
+
+.headerPictureResp {
+    display: none;
+}
+
+.starRight {
+    height: 8px;
+}
+
+.review23Right {
+    font-size: 10px;
+}
+
+.catRightDateDomesticMain {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.princenameStarRevContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.catRightDate {
+    color: #062D3EC2;
+    font-size: 14px;
+}
+
+.catRightDomestic {
+    color: #062D3EC2;
+    /* font-size: 14px; */
+}
+
+.catEdit {
+    height: 15px;
+}
+
+.catEditPrintContainer {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.catEditPrintInnerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #A658A1;
+    background-color: #EEEEEF;
+    padding: 6px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.catEditPrintInnerContainer:hover {
+    color: #d692d2;
+
+    .catEdit {
+        opacity: 0.6;
+    }
+}
+
+.catRightMsgBtn {
+    width: 250px;
+    cursor: pointer;
+    padding: 15px 60px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 18px;
+    color: #FBFCFF;
+    background-color: #A658A1;
+    border: none;
+    border-radius: 18px;
+}
+
+.catRightMsgBtn:hover {
+    background-color: rgb(198, 163, 196);
+}
+
+.catRightPhnBtn {
+    width: 250px;
+    padding: 15px 15px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 20px;
+    border: none;
+    border-radius: 18px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.catRightPhnBtn:hover {
+    background-color: rgb(217, 228, 228);
+}
+
+.catReviewBtn {
+    background-color: #EDDEECCC;
+    border: 1px solid #A658A133;
+    font-weight: 700;
+    padding: 10px 50px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.catReviewBtn:hover {
+    background-color: #a988a6;
+    color: white;
+}
+
+.catThoughtsReview {
+    display: flex;
+    justify-content: space-between;
+}
+
+.catEndingMainDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    margin-top: 50px;
+    width: 815px;
+}
+
+.catReviewEndData {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    padding: 0px 70px;
+    margin-bottom: 50px;
+}
+
+.innerCatReviewEndData {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.catReviewDatePosition {
+    color: #858585;
+    font-size: 14px;
+}
+
+.starContainer {
+    display: flex;
+    gap: 10px;
+}
+
+.star {
+    height: 16px;
+}
+
+.humanNameContainer {
+    display: flex;
+    align-items: center;
+}
+
+.nameHumansImg {
+    height: 35px;
+    margin: 0px 6px;
+}
+
+.catfirst-Respons {
+    display: none;
+}
+
+.catleftStarMainDiv {
+    margin-bottom: 20px;
+}
+
+
+
+@media (max-width:1900px) {
+    .catRightMiddleFirstMain {
+        width: 570px;
+    }
+
+    .PrinceMiyakoName {
+        font-size: 31px;
+    }
+
+    .leftStarInnerDiv {
+        /* border: 2px solid black; */
+        justify-content: space-between;
+    }
+
+    .starRight {
+        height: 14px;
+    }
+
+    .review23Right {
+        font-size: 16px;
+    }
+
+    .catRightDate {
+        font-size: 19px;
+    }
+
+    .catRightDomestic {
+        font-size: 20px;
+    }
+
+    .catEdit {
+        height: 20px;
+        margin-right: 8px;
+        /* 15 */
+    }
+
+    .catEditPrintInnerContainer {
+        font-size: 17px;
+    }
+
+    .catRightMsgBtn,
+    .catRightPhnBtn {
+        width: 390px;
+    }
+
+    .DSnav {
+        font-size: 20px;
+    }
+
+    .catLeftLeftTop {
+        height: 490px;
+    }
+
+    .catLeftRight {
+        height: 197px;
+    }
+
+    .catLeftLeftBottom {
+        height: 102px;
+    }
+
+    .navImg{
+        margin-bottom: -10px;
+        height: 35px;
+        width: 35px;
+    }
+
+    .DashboardBtn{
+        width: 156px;
+        height: 34px;
+    }
+}
+
+@media (max-width:1660px) {
+    .catRightMiddleFirstMain {
+        width: 540px;
+    }
+
+}
+
+@media (max-width:1630px) {
+    
+    .catLeftLeftTop {
+        height: 485px;
+    }
+
+    .catLeftRight {
+        height: 195px;
+    }
+
+    .catLeftLeftBottom {
+        height: 100px;
+    }
+    
+    .catRightMiddleFirstMain {
+        width: 520px;
+    }
+    
+}
+
+@media (max-width:1585px) {
+    
+    .catLeftLeftTop {
+        height: 478px;
+    }
+
+    .catLeftRight {
+        height: 191px;
+    }
+
+    .catLeftLeftBottom {
+        height: 97.5px;
+    }
+    
+    .catRightMiddleFirstMain {
+        width: 510px;
+    }
+}
+
+@media (max-width:1570px) {
+    .catLeftLeftTop {
+        height: 488px;
+    }
+
+    .catLeftRight {
+        height: 157px;
+    }
+
+    .catLeftLeftBottom {
+        display: none;
+    }
+    
+    .catRightMiddleFirstMain {
+        width: 510px;
+    }
+}
+@media (max-width:1550px) {
+    .catRightMiddleFirstMain {
+        width: 500px;
+    }
+}
+
+@media (max-width:1520px) {
+    .catLeftLeftTop {
+        height: 398px;
+    }
+
+    .catLeftRight {
+        height: 194px;
+    }
+
+    .mediumSizeThirdCat{
+        display: none;
+    }
+
+    .catRightMiddleFirstMain {
+        width: 510px;
+    }
+}
+@media (max-width:1480px) {
+    .catRightMiddleFirstMain {
+        width: 500px;
+    }
+}
+
+@media (max-width:1420px) {
+    .catRightMiddleFirstMain {
+        width: 450px;
+    }
+}
+
+@media (max-width:1370px) {
+    .catRightMiddleFirstMain {
+        width: 400px;
+    }
+
+    .catRightMsgBtn,
+    .catRightPhnBtn {
+        width: 250px;
+    }
+    .DSnav{
+        width: 70%;
+    }
+}
+
+@media (max-width:1320px) {
+    .catLeftLeftTop {
+        height: 378px;
+    }
+
+    .catLeftRight {
+        height: 184px;
+    }
+}
+@media (max-width:1320px) {
+    .catRightMiddleFirstMain {
+        width: 350px;
+    }
+}
+
+@media (max-width:1270px) {
+    .catRightMiddleFirstMain {
+        width: 300px;
+    }
+
+    .catLeftLeftTop {
+        height: 400px;
+    }
+
+    .catLeftRight {
+        height: 160px;
+    }
+
+    .mediumSizeThirdCat{
+        display: block;
+    }
+
+    .catLeftLeftBottom {
+        display: flex;
+        height: 80px;
+    }
+
+    .DSnav {
+        font-size: unset;
+    }
+
+    .catEdit {
+        height: 15px;
+        margin-right: 0px;
+        /* 15 */
+    }
+
+    .catEditPrintInnerContainer {
+        font-size: 13px;
+        padding: 5px;
+    }
+
+    .DashboardBtn{
+        width: 116px;
+        height: 33px;
+    }
+
+    .navImg{
+        height: 30px;
+        width: 30px;
+        margin-bottom: -8px;
+    }
+}
+
+@media (max-width:1240px) {
+    .catLeftLeftTop {
+        height: 400px;
+    }
+
+    .catEditPrintInnerContainer {
+        padding: 6px 20px;
+    }
+
+    .starRight {
+        height: 8px;
+    }
+
+    .review23Right {
+        font-size: 10px;
+    }
+
+    .PrinceMiyakoName {
+        font-size: unset;
+    }
+
+    .catRightMiddleFirstMain {
+        width: unset;
+    }
+
+    .catLeftRight {
+        height: 160px;
+    }
+
+    .catLeftLeftBottom {
+        height: 80px;
+    }
+
+    .catLeftMiddleSecondMain,
+    .catLeftMiddleThirdMain {
+        margin-right: 10px;
+    }
+
+    .catEndingMainDiv {
+        width: 760px;
+    }
+
+    .PrinceMiyakoName {
+        align-self: center;
+        font-size: 18px;
+    }
+
+    .catRightDate {
+        font-size: 14px;
+    }
+
+    .catRightDomestic {
+        font-size: 16px;
+    }
+
+    .DashboardBtn,.ManHeader{
+        margin-bottom: -7px;
+    }
+}
+
+@media (max-width:1235px) {
+    .catLeftLeftTop {
+        height: 385px;
+    }
+
+    .catLeftRight {
+        height: 154px;
+    }
+
+    .catLeftLeftBottom {
+        height: 77px;
+    }
+
+    .catLeftMiddleSecondMain,
+    .catLeftMiddleThirdMain {
+        margin-right: 25px;
+    }
+
+    .catEndingMainDiv {
+        width: 760px;
+    }
+}
+
+@media (max-width:1225px) {
+
+    .catLeftLeftTop {
+        height: 375px;
+    }
+
+    .catLeftRight {
+        height: 150px;
+    }
+
+    .catLeftLeftBottom {
+        height: 75px;
+    }
+
+    .catLeftMiddleSecondMain,
+    .catLeftMiddleThirdMain {
+        margin-right: 0px;
+    }
+
+    .catEndingMainDiv {
+        width: 760px;
+    }
+
+    .catLeftMiddleThirdMain {
+        padding: 30px;
+    }
+
+    .purpleCatThird {
+        min-width: 180px;
+    }
+}
+
+@media (max-width:1180px) {
+    .catThirdUK-i {
+        gap: 5px;
+    }
+
+    .darkCatThird {
+        min-width: 100px;
+    }
+
+    .catLeftMiddleThirdMain {
+        padding-left: 30px;
+        padding-right: 0px;
+    }
+
+    .catLeftMiddleFirstMain {
+        gap: 10px;
+    }
+
+    .catLeftLeftTop {
+        height: 360px;
+    }
+
+    .catLeftRight {
+        height: 144px;
+    }
+
+    .catLeftLeftBottom {
+        height: 72px;
+    }
+}
+
+@media (max-width:1170px) {
+
+    .BlogInnerFlexbox {
+        flex-wrap: wrap;
+    }
+
+    .lastPurpleMain {
+        font-size: 22px;
+        width: 45%;
+    }
+
+    .loveReactBlogMedia {
+        right: 28%;
+    }
+
+    .blogMedia {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
+
+@media (max-width:1140px) {
+    .catLeftLeftTop {
+        height: 350px;
+    }
+
+    .catLeftRight {
+        height: 140px;
+    }
+
+    .catLeftLeftBottom {
+        height: 70px;
+    }
+}
+
+@media (max-width:1140px) {
+    .catLeftLeftTop {
+        height: 335px;
+    }
+
+    .catLeftRight {
+        height: 134px;
+    }
+
+    .catLeftLeftBottom {
+        height: 67px;
+    }
+}
+
+@media (max-width:1107px) {
+
+    .sidebar {
+        display: none;
+    }
+
+    .purpleSecondBG {
+        height: 1040px;
+    }
+
+    .footer {
+        height: 100%;
+    }
+
+    .blogMedia {
+        padding: 30px 0px;
+    }
+
+    .DSnav {
+        width: 75%;
+    }
+
+    .DSLeftInnerDiv {
+        flex-direction: column;
+    }
+
+    .DSLeftInnerPicMain {
+        width: 100%;
+    }
+
+    .DSLeftDogDetail,
+    .DSdogLightTextLeft {
+        margin-top: 8px;
+    }
+
+    .DSmainData {
+        justify-content: space-evenly;
+    }
+
+    .DSLeftDogPara {
+        width: 500px;
+        font-size: 17px;
+    }
+
+    .DSdogLightTextLeft {
+        font-size: 14px;
+    }
+
+    .DSLeftInnerTextData {
+        padding: 0px 10px;
+    }
+
+
+    .sidebar {
+        display: none;
+    }
+}
+
+@media (max-width:1095px) {
+    .catLeftLeftTop {
+        height: 325px;
+    }
+
+    .navImg{
+        margin-right: 2px;
+    }
+
+    .catLeftRight {
+        height: 130px;
+    }
+
+    .catLeftLeftBottom {
+        height: 65px;
+    }
+
+    .darkCatThird {
+        min-width: unset;
+    }
+
+    .purpleSecondTemp {
+        min-width: 120px;
+    }
+
+    .catThirdUK-i {
+        min-width: unset;
+    }
+}
+
+@media (max-width:1073px) {
+
+    .searchDiv {
+        flex-direction: column;
+        height: 120px;
+    }
+
+    .searchButton {
+        margin-left: 0px;
+        height: 60px;
+        width: 100px;
+    }
+
+    .location {
+        height: 65px;
+        width: 150px;
+    }
+
+    .searchIt {
+        margin: 15px 0px;
+    }
+
+    .nav {
+        width: 65%;
+    }
+
+    .DSnav {
+        width: 75%;
+    }
+
+    .sidebar {
+        display: none;
+    }
+
+    .catLeftLeftTop {
+        height: 300px;
+    }
+
+    .catLeftRight {
+        height: 120px;
+    }
+
+    .catLeftLeftBottom {
+        height: 60px;
+    }
+
+    .catGreenBtnOuter {
+        margin-right: 30px;
+    }
+}
+
+@media(max-width: 1055px) {
+    .introHeading {
+        font-size: 44px;
+    }
+
+    .introPurpleColorText {
+        font-size: 44px;
+    }
+
+    .introPara {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .sidebar {
+        display: none;
+    }
+
+    .catLeftMiddleThirdMain {
+        height: unset;
+        padding-right: 30px;
+    }
+
+    .catLeftMiddleThirdInner {
+        justify-content: space-between;
+    }
+
+    .catEndingMainDiv {
+        width: 680px;
+    }
+
+}
+
+
+@media (max-width: 1033px) {
+    .catLeftLeftTop {
+        height: 275px;
+    }
+
+    .catLeftRight {
+        height: 110px;
+    }
+
+    .catLeftLeftBottom {
+        height: 55px;
+    }
+}
+
+@media (max-width: 1000px) {
+
+    .DSLeftDogPara {
+        width: 400px;
+    }
+}
+
+@media (max-width: 990px) {
+    .catfirst- {
+        display: none;
+    }
+
+    .catLeftLeftTop {
+        height: 289px;
+    }
+
+    .catLeftRight {
+        height: 89px;
+    }
+
+    .catLeftLeftBottom {
+        height: 77px;
+    }
+
+    .catfirst-Respons {
+        display: flex;
+    }
+
+    .catLeftLeftMiddleMain {
+        flex-direction: row;
+    }
+
+    .catLeftRightMiddleMain {
+        flex-direction: column;
+    }
+
+    .catLeftMiddleFirstMain {
+        flex-direction: column;
+    }
+
+    .footerLinksMain {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+}
+
+@media (max-width: 960px) {
+    .mobileImg {
+        height: 320px;
+        right: 45px;
+    }
+
+    .playstoreSecondPic {
+        height: 30px;
+    }
+
+    .lastPurpleBG {
+        height: 300px;
+    }
+
+    .view {
+        margin-right: 40px;
+    }
+
+    .footerEmailSubscribeMain {
+        width: 65%;
+    }
+
+    .footerSignUpHeading {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .footerSignUpPara {
+        font-size: 10px;
+        line-height: 16px;
+    }
+
+    .footerLinksImgs {
+        margin: 1px 0px;
+    }
+
+    .catLeftLeftTop {
+        height: 270px;
+    }
+
+    .catLeftRight {
+        height: 82px;
+    }
+
+    .catLeftLeftBottom {
+        height: 72px;
+    }
+
+}
+
+@media (max-width: 900px) {
+
+    .footerDivsMargin {
+        margin: 0px 20px;
+    }
+
+    .playstoreFooter {
+        height: 90px;
+    }
+
+    .introHeading {
+        font-size: 37px;
+    }
+
+    .introPurpleColorText {
+        font-size: 37px;
+    }
+
+    .introPara {
+        font-size: 15px;
+        line-height: 22px;
+    }
+
+    .introCatDogPic {
+        height: 160px;
+        width: 580px;
+    }
+
+    .playstorePara {
+        font-size: 22px;
+    }
+
+    .playstore {
+        height: 25%;
+        width: 29%;
+    }
+
+    .playStorePurple {
+        padding: 0px 40px;
+    }
+
+    .header {
+        padding: 18px 24px;
+    }
+
+    .footerEmailSubscribeMain {
+        width: 75%;
+    }
+
+    .footerEmailSubscribeInner {
+        padding: 5px;
+    }
+
+    .footerDiv1 {
+        padding-left: 45%;
+    }
+
+    .DSMainDiv {
+        padding: 25px 24px;
+    }
+
+    .navMenuSub {
+        margin-right: 0px;
+    }
+
+    .CatMainDiv {
+        padding: 50px 24px;
+    }
+
+
+    .catEndingMainDiv {
+        width: 600px;
+    }
+
+    .catLeftLeftTop {
+        height: 261px;
+    }
+
+    .catLeftRight {
+        height: 79.5px;
+    }
+
+    .catLeftLeftBottom {
+        height: 70px;
+    }
+
+}
+
+@media(max-width: 870px) {
+    .DSnav{
+        width: 80%;
+    }
+}
+@media(max-width: 870px) {
+    .catLeftLeftTop {
+        height: 258px;
+    }
+
+    .catLeftRight {
+        height: 78px;
+    }
+
+    .catLeftLeftBottom {
+        height: 68px;
+    }
+
+}
+
+@media(max-width: 870px) {
+    .catRightMiddleFirstMain {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media(max-width: 825px) {
+    .nav {
+        width: 75%;
+    }
+
+    .Meowlogotopleft {
+        width: 110px;
+    }
+
+    .footerEmail {
+        font-size: 8px;
+    }
+
+    .footerSignUpMain {
+        width: 50%;
+    }
+
+    .navImg{
+        margin-right: 10px;
+    }
+
+    .DSnav {
+        display: none;
+    }
+
+    .navMenuDS,
+    .toggleMenu {
+        display: flex;
+        gap: 20px;
+    }
+
+    .DSsearchsearch {
+        width: unset;
+        gap: 5px;
+    }
+
+    .DSsearchAds {
+        width: 250px;
+    }
+
+    .DSLeftDogPara {
+        width: 350px;
+        margin-top: 10px;
+        font-size: 15px;
+    }
+
+    .DSLeftDogPara {
+        width: 330px;
+    }
+
+    .DSLeftInnerTextData {
+        padding: 0px 10px;
+    }
+
+    .DSdogLightTextLeft {
+        font-size: 13px;
+    }
+
+    .catMiddleMain {
+        flex-wrap: wrap;
+    }
+
+    .catLeftMiddleThirdMain {
+        height: 550px;
+    }
+
+    .catLeftLeftTop {
+        height: 415px;
+    }
+
+    .catLeftRight {
+        height: 132px;
+    }
+
+    .catLeftLeftBottom {
+        height: 115px;
+    }
+
+    .catRightMiddleMain {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .catRightMiddleFirstMain {
+        /* padding-left: 40px;
+        padding-right: 40px; */
+        width: 450px;
+        height: 535px;
+    }
+
+    .headerPictureResp {
+        display: block;
+        margin-left: 550px;
+    }
+}
+
+@media(max-width: 810px) {
+    .catLeftLeftTop {
+        height: 400px;
+    }
+
+    .catLeftRight {
+        height: 127px;
+    }
+
+    .catLeftLeftBottom {
+        height: 110px;
+    }
+
+    .catLeftMiddleFirstMain {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .headerPictureResp {
+        margin-left: 500px;
+    }
+}
+
+@media(max-width: 780px) {
+    .catLeftLeftTop {
+        height: 390px;
+    }
+
+    .catLeftRight {
+        height: 123px;
+    }
+
+    .catLeftLeftBottom {
+        height: 106px;
+    }
+}
+
+@media(max-width: 766px) {
+    .BlogInnerFlexbox {
+        padding: 30px 30px;
+    }
+
+    .catLeftLeftTop {
+        height: 370px;
+    }
+
+    .catLeftRight {
+        height: 116px;
+    }
+
+    .catLeftLeftBottom {
+        height: 100px;
+    }
+
+    .headerPictureResp {
+        margin-left: 450px;
+    }
+}
+
+@media(max-width: 762px) {
+    .adHeading {
+        font-size: 1.25rem;
+    }
+
+    .view {
+        margin-right: 80px;
+        margin-left: 22%;
+    }
+
+    .introIrish {
+        position: absolute;
+        height: 50px;
+        right: 40px;
+        top: -2px;
+    }
+
+    .introHeading {
+        font-size: 30px;
+    }
+
+    .introPurpleColorText {
+        font-size: 30px;
+    }
+
+    .introCatDogPic {
+        height: 130px;
+        width: 500px;
+    }
+
+    .DSdogLightTextLeft {
+        font-size: 12px;
+    }
+}
+
+@media(max-width: 728px) {
+    .catLeftLeftTop {
+        height: 320px;
+    }
+
+    .catLeftRight {
+        height: 155px;
+    }
+
+    .catLeftLeftBottom {
+        display: none;
+    }
+
+    .catLeftRightThird {
+        display: none;
+    }
+}
+
+@media(max-width: 720px) {
+    .footerDiv1 {
+        padding-left: 41%;
+        padding-right: 8%;
+    }
+
+    .introIrish {
+        display: none;
+    }
+
+    .playstoreFooter {
+        height: 75px;
+    }
+
+    .mobileImg {
+        height: 290px;
+        right: 35px;
+    }
+
+    .Meowlogofooter {
+        height: 40px;
+    }
+
+    .footerDivsMargin {
+        margin: 0px;
+    }
+
+    .loginButtonFooter {
+        width: 70px;
+    }
+
+    .serviceImg {
+        height: 80px;
+    }
+
+    .DSmainData {
+        flex-direction: column;
+    }
+
+    .DSdogLightTextLeft {
+        font-size: 15px;
+    }
+
+    .DSLeftDogPara {
+        width: 100%;
+    }
+
+    .DSLeftInnerPicMain {
+        height: 300px;
+    }
+
+    .DSmainDataRight {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+
+    .catEndingMainDiv {
+        width: 500px;
+    }
+
+    .catReviewEndData {
+        padding-left: 24px;
+        gap: 60px;
+    }
+
+    .catLeftLeftTop {
+        height: 310px;
+    }
+
+    .catLeftRight {
+        height: 150px;
+    }
+
+    .catLeftLeftMiddleMain {
+        justify-content: space-between;
+    }
+
+    .catThoughtsReview {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+@media(max-width: 710px) {
+
+    .catRightMiddleMain {
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .catRightMiddleFirstMain {
+        /* padding-left: 40px;
+        padding-right: 40px; */
+        width: 100%;
+        /* height: 535px; */
+    }
+
+    .catVetAdss {
+        width: 100%;
+    }
+
+    .headerPictureResp {
+        margin-left: 400px;
+    }
+}
+
+@media(max-width: 695px) {
+    .catLeftLeftTop {
+        height: 300px;
+    }
+
+    .catLeftRight {
+        height: 145px;
+    }
+}
+
+@media(max-width: 670px) {
+    .nav {
+        display: none;
+    }
+
+    .navMenu {
+        display: block;
+    }
+
+    /* .navMenu {
+        display: ; */
+    /* } */
+
+    .footer {
+        height: 100%;
+    }
+
+    .playstoreFooter {
+        height: 60px;
+    }
+
+    .Meowlogofooter {
+        height: 30px;
+    }
+
+    .footerDiv3 {
+        font-size: 10.1px;
+    }
+
+    .locationIconFooter {
+        height: 11px;
+    }
+
+    .locFootText {
+        font-size: 8px;
+    }
+
+    .playstorePara {
+        font-size: 17px;
+    }
+
+    .searchDiv {
+        font-size: 14px;
+    }
+
+    .intro {
+        margin: 0px;
+        padding: 15px;
+        padding-bottom: 0px;
+    }
+
+    .searchDiv {
+        padding: 0px;
+    }
+
+    .DSshowing9Container,
+    .DSsearchsearch,
+    .DSsearchAds,
+    .DSsearchMedia {
+        flex-direction: column;
+        gap: 15px;
+        width: 100%;
+    }
+
+    .DSsearchAds {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        height: 30px;
+    }
+
+    .catLeftLeftTop {
+        /* height: 310px; */
+        height: unset;
+        width: 100%;
+    }
+
+    .catLeftRight {
+        /* height: 150px; */
+        display: none;
+    }
+
+    .catLeftLeftMiddleMain {
+        gap: 0px;
+    }
+}
+
+@media(max-width:660px) {
+    .catLeftMiddleThirdMain {
+        height: unset;
+    }
+
+    .catGreenBtnOuter {
+        align-self: center;
+    }
+
+    .catGreenBtnOuter {
+        margin-right: 0px;
+    }
+
+    .headerPictureResp {
+        margin-left: 350px;
+    }
+}
+
+@media(max-width:630px) {
+    .mobileImg {
+        height: 270px;
+        right: 15px;
+    }
+
+    .introHeading {
+        font-size: 27px;
+    }
+
+    .introPurpleColorText {
+        font-size: 27px;
+    }
+
+    .introCatDogPic {
+        height: 110px;
+        width: 450px;
+    }
+
+    .playstore {
+        height: 20%;
+        width: 32%;
+    }
+
+    .playstorePara {
+        line-height: 25px;
+    }
+
+    .playStorePurple {
+        padding: 0px 13px;
+        text-indent: 14px;
+    }
+
+    .InnerAdsData {
+        width: 100%;
+    }
+
+    .adsMainPicDiv {
+        width: 100%;
+        /* height: 40%; */
+    }
+
+    .adPic {
+        width: 100%;
+    }
+
+    .InnerAdsData {
+        margin: 30px 20px;
+    }
+
+    .playStorePurple {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .searchButton {
+        width: 100%;
+    }
+
+    .location {
+        width: 100%;
+    }
+
+    .searchIt {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .catEndingMainDiv {
+        width: unset;
+    }
+
+    .Meowlogotopleft {
+        margin-left: 10px;
+    }
+
+    .purpleSecondBG {
+        height: 100%;
+    }
+
+    .serviceData {
+        /* display: flex; */
+        flex-direction: column;
+        /* justify-content: space-evenly; */
+    }
+
+    .BTGMain {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .serviceImg {
+        margin-top: -8px;
+    }
+
+    .BTGheading {
+        margin-left: 0px;
+    }
+
+    .marginTrainerMediaPara {
+        margin-left: 33px;
+    }
+
+    .footerDiv2 {
+        flex-direction: column;
+    }
+
+    .mediaSet {
+        display: flex;
+        /* flex-direction: row; */
+        width: 100%;
+        /* align-items: center; */
+        flex-wrap: wrap;
+    }
+
+
+    .footerBg {
+        display: none !important;
+    }
+
+    .footer {
+        background-image: url(Images/Footer.png);
+        background-size: cover;
+    }
+
+    .footerDiv2 {
+        width: 100%;
+        height: 100%;
+        /* padding-left: 10px; */
+        padding: 0px 10px;
+    }
+
+    .footerDiv2LightText {
+        font-size: 16px;
+    }
+
+    .footerSubscribe {
+        /* height: 25px; */
+        /* width: 50px; */
+        font-size: 14px;
+        line-height: 15px;
+    }
+
+    .footerDiv2ExploreMainDiv,
+    .footerDiv2SupportMainDiv,
+    .footerDiv2LegalMainDiv,
+    .footerDiv2LogoMainDiv,
+    .footerDiv2PlaystoreMainDiv {
+        margin: 10px 0px;
+    }
+
+    .footerEmail {
+        font-size: 13px !important;
+    }
+
+    .footerEmailSubscribeMain {
+        width: 100%;
+    }
+
+    .footerSignUpHeading {
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .footerSignUpPara {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .lineFooter {
+        margin: 0px 5px;
+    }
+
+    .loginButtonFooter {
+        width: 58px;
+    }
+
+    .footerDiv1 {
+        padding-left: 20px;
+        padding-top: 325px !important;
+        padding-right: 7%;
+    }
+
+    .footerDiv2LogoMainDiv {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-left: 0px !important;
+        /* margin-right: 10px; */
+    }
+
+    .Meowlogofooter {
+        height: 48px;
+    }
+
+    .locFootText {
+        font-size: 16px !important;
+    }
+
+    .locationIconFooter {
+        height: 20px;
+    }
+
+    .footerLinksImgs {
+        height: 35px;
+    }
+
+    .footerLinksMain {
+        justify-content: space-between;
+        gap: 15px;
+    }
+
+    .loginButtonFooter {
+        width: 60%;
+        /* margin-left: 10px; */
+        /* margin-right: 10px !important; */
+    }
+
+    .locationMainFooter {
+        /* border: 2px solid black; */
+        justify-content: center;
+    }
+
+    .footerDiv3 {
+        display: flex;
+        padding-top: 6px;
+        padding-bottom: 6px;
+    }
+
+    .footerMediaMargin {
+        margin-left: 10px;
+    }
+
+    .FooterSupLegExpMediamarginn {
+        font-size: 16px !important;
+        margin-top: 10px;
+    }
+
+    .header {
+        padding-left: 8px;
+    }
+
+    .playstoreFooter {
+        height: 95px !important;
+        width: 180px !important;
+    }
+
+    .playstoreFooterContMedia {
+        display: flex !important;
+        /* border: 2px solid black; */
+        flex-direction: row !important;
+        justify-content: center;
+    }
+
+    .DSMainDiv {
+        padding-bottom: 0px;
+    }
+
+    .DS123container {
+        margin-bottom: 0px;
+    }
+
+    .catEndingMainDiv {
+        width: 450px;
+    }
+
+    .footerDiv3{
+        background-color: #2c2c31;
+    }
+
+    .CatMainDiv{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .header{
+        padding-right: 15px;
+        padding-left: 2px;
+    }
+
+    .footerDiv1{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+}
+
+@media(max-width: 600px) {
+    .headerPictureResp {
+        margin-left: 300px;
+    }
+}
+
+@media(max-width: 580px) {
+
+    .introParadiv {
+        padding: 0%;
+        margin: 15px;
+    }
+
+    .footerDiv3{
+        padding-left: 0px;
+        justify-content: center;
+    }
+
+}
+
+@media(max-width: 571px) {
+    .footer {
+        height: 100%;
+    }
+
+    .footerDiv3 {
+        font-size: 9px;
+    }
+
+    .lastPurpleMain {
+        font-size: 18px;
+        width: 45%;
+    }
+
+
+    .locFootText {
+        font-size: 7px;
+    }
+
+    .serviceData {
+        padding-left: 0px;
+    }
+
+    .mobileImg {
+        height: 240px;
+        right: 5px;
+    }
+
+    .lastPurpleMain {
+        top: 5%;
+        height: 90%;
+    }
+
+    .lastPurpleBG {
+        height: 250px;
+    }
+
+    .introHeading {
+        font-size: 22px;
+    }
+
+    .introPara {
+        font-size: 16px;
+    }
+
+    .introPurpleColorText {
+        font-size: 22px;
+    }
+
+    .footerDiv1 {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* padding: 0px; */
+    }
+
+    .footerSignUpHeading {
+        font-size: 22px;
+    }
+
+    .footerSignUpMain {
+        width: unset;
+    }
+
+    .footerEmailSubscribeInner {
+        width: 68%;
+    }
+
+    .lineFooter {
+        display: none;
+    }
+
+    .footerSignUpMain {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footerEmailSubscribeMain {
+        justify-content: center;
+    }
+}
+
+@media(max-width: 552px) {
+
+
+
+    /* .introHeading {
+        font-size: 22px;
+    } */
+
+    .introPara {
+        /* font-size: 16px; */
+        line-height: 19px;
+    }
+
+    /* .introPurpleColorText {
+        font-size: 20px;
+    } */
+
+    .introCatDogPic {
+        height: 100px;
+        width: 440px;
+    }
+
+    .loginButtonFooter {
+        width: 95%;
+        height: 38px !important;
+        font-size: 16px;
+    }
+
+    .supportNarginMedia {
+        margin-left: 10px;
+        margin-right: 10px;
+        text-align: center;
+    }
+
+    .DSLeftInnerPicMain {
+        height: 250px;
+    }
+
+    .footerEmailSubscribeInner {
+        width: 100%;
+    }
+
+    .footerDiv1 {
+        padding-right: 20px;
+    }
+
+    .headerPictureResp {
+        margin-left: 250px;
+    }
+
+}
+
+
+@media(max-width: 530px) {
+    .catleftStarMainDiv {
+        flex-direction: column;
+        gap: 15px;
+        
+    }
+
+    .catReportAdButton {
+        margin-bottom: 15px;
+    }
+}
+
+@media(max-width: 500px) {
+    .introCatDogPic {
+        height: 80px;
+        width: 340px;
+    }
+
+    .headerPictureResp {
+        margin-left: 200px;
+    }
+
+
+    .locFootText {
+        font-size: 6px;
+    }
+
+    .DSblackHeart {
+        bottom: 20px;
+    }
+
+    .catEndingMainDiv {
+        width: unset;
+    }
+
+    .catEndingMainDiv {
+        gap: 65px;
+    }
+
+    .catReviewEndData {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .catDollar {
+        margin-right: 0px;
+    }
+
+    .catDollarNameMainDiv {
+        margin-bottom: 10px;
+    }
+}
+
+@media(max-width: 488px) {
+    .DSdogLightTextLeft {
+        font-size: 14px;
+    }
+}
+
+@media(max-width: 470px) {
+    .playstore {
+        height: 15%;
+        width: 42%;
+    }
+
+    /* .footerDivsMargin {
+        margin: 0px -15px;
+    } */
+
+    .locFootText {
+        font-size: 5.5px;
+    }
+
+    .loginButtonFooter {
+        height: 26px;
+    }
+
+
+    .lastPurpleMain {
+        font-size: 16px;
+        line-height: 20px;
+        width: 45%;
+    }
+
+    .mobileImg {
+        top: -55px;
+        height: 220px;
+    }
+
+
+    .footerEmailSubscribeInner {
+        padding: 8px;
+    }
+
+
+    .adHeading {
+        font-size: 1.05rem;
+    }
+
+    .view {
+        margin-right: 42px;
+        margin-left: 17.5%;
+        font-size: 13.5px;
+    }
+
+    .navMenuSub {
+        margin-right: 0px;
+    }
+
+    .DSdogLightTextLeft {
+        font-size: 13px;
+    }
+}
+
+
+@media(max-width: 460px) {
+    .catStartImgsMainDiv {
+        /* flex-direction: column; */
+        align-items: start;
+        flex-wrap: wrap;
+    }
+
+    .headerPictureResp {
+        margin-left: 150px;
+    }
+
+}
+
+@media(max-width: 440px) {
+    .DSdogLightTextLeft {
+        font-size: 15px;
+    }
+
+    .DSLeftDogDetail {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}
+
+@media(max-width: 425px) {
+    .lastPurpleMain {
+        font-size: 12px;
+        width: 35%;
+    }
+
+    .playstoreSecondPic {
+        height: 23px;
+    }
+
+    .footerEmail {
+        font-size: 12.3px;
+    }
+
+    .introPara {
+        line-height: 17px;
+    }
+
+    .introCatDogPic {
+        height: 80px;
+        width: 370px;
+    }
+}
+
+
+@media(max-width: 400px) {
+    .headerPictureResp {
+        margin-left: 100px;
+    }
+
+}
+
+@media(max-width: 380px) {
+
+    .playstoreFooter {
+        height: 40px;
+        width: 40px;
+        margin-right: 0px;
+    }
+
+    .introCatDogPic {
+        height: 80px;
+        width: 280px;
+    }
+
+    .footerDiv3 {
+        font-size: 8.8px;
+    }
+
+    .navMenuSub {
+        margin-right: -10px;
+    }
+
+    .footerEmail {
+        font-size: 10px;
+    }
+
+    .footerDiv1 {
+        padding-right: 20px;
+    }
+
+    .DSLeftInnerTextData {
+        padding: 0px;
+    }
+
+    .DSblackHeart {
+        right: 20px;
+        bottom: 15px;
+    }
+
+    .navMenuDS {
+        margin-right: 10px;
+    }
+}
+
+@media(max-width: 378px) {
+    .footer {
+        height: 100%;
+    }
+
+    .mobileImg {
+        top: -55px;
+        height: 220px;
+        width: 60%;
+    }
+
+    .DSLeftInnerPicMain {
+        height: 220px;
+    }
+
+    .DSdogHeading,
+    .DSdogDollar {
+        font-size: 20px;
+    }
+
+    .calmCatThird{
+        margin-left: -35px;
+    }
+}
+
+@media(max-width: 360px) {
+    .playstorePara {
+        font-size: 16px;
+        line-height: 23px;
+    }
+
+    .footerSubscribe {
+        font-size: 13.5px;
+        width: 100px;
+    }
+
+    .footerEmail {
+        font-size: 9px;
+    }
+
+    .catLeftMiddleThirdMain,
+    .catLeftMiddleSecondMain {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+
+@media(max-width: 349px) {
+    .DSLeftDogDetail {
+        justify-content: unsafe;
+    }
+
+    .headerPictureResp {
+        margin-left: 80px;
+    }
+
+    .DSLeftInnerPicMain {
+        height: 200px;
+    }
+
+    .DSdogDollarContainer {
+        padding-right: 0px;
+    }
+
+    .DSpubSearchBtn {
+        width: 100%;
+    }
+
+    .DspubPriceInnerData {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .DSpublishedfromTo {
+        width: 100px;
+    }
+
+    .DSblackHeart {
+        right: 10px;
+    }
+
+    .catthird-i {
+        display: none;
+    }
+}
+
+@media(max-width: 330px) {
+    .headerPictureResp {
+        margin-left: 50px;
+    }
+}
